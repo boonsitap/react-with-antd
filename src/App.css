@@ -1,0 +1,97 @@
+@import '~antd/dist/antd.css';
+
+@font-face{
+  font-family: raleway;
+  src: url(Raleway-SemiBold.ttf);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(30, 80,108) ;
+  position: relative;
+  height: 52px;
+
+}
+
+.App-menu {
+  font-family: raleway;
+  font-size: 24px;
+  text-align: center;
+  right: 100px;
+  color: darkblue;
+}
+
+.App-button{
+  position: relative;
+  bottom: 50px;
+  font-family: 'Franklin Gothic Medium';
+  font-size: 18px;
+}
+
+.App-buttonRegist {
+  position: relative;
+  font-family: raleway;
+  font-size: 20px;
+  left: 1650px;
+  
+}
+
+.App-buttonLogin {
+  position: relative;
+  font-family: raleway;
+  font-size: 20px;
+  left: 1420px;
+}
+
+.App-title{
+  position: relative;
+  top: 200px;
+  font-family: raleway;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+
+}
+
+.App-detail {
+  position: relative;
+  text-align: center;
+  top: 220px;
+  font-family: raleway;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+}
+
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 650px;
+  line-height: 650px;
+  background: midnightblue;
+  overflow: hidden;
+}
+
+.ant-carousel .slick-slide h1 {
+  background-image: url("07.jpg");
+  background-size: 100%;
+}
+
+.ant-carousel .slick-slide h2 {
+  background-image: url("08.jpg");
+  background-size: 100%;
+}
+
+.ant-carousel .slick-slide h3 {
+  background-image: url("09.jpg");
+  background-size: 100%;
+}
+
+.ant-carousel .slick-slide h4 {
+  background-image: url("10.jpg");
+  background-size: 100%;
+}
+
